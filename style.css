@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+  color: white;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+}
+.wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem 1.5rem;
+}
+
+.image-eye {
+  position: relative;
+}
+
+.image-eye .equilibrium {
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.image-eye .icon-view {
+  position: absolute;
+  padding: 6.3rem;
+  left: 0px;
+  border-radius: 10px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.image-eye .icon-view:hover {
+  background-color: hsl(178, 100%, 50%, 0.5);
+  opacity: 1;
+}
+
+.info h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.info h2:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.info h4 {
+  font-size: 1rem;
+  line-height: 30px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 2rem;
+}
+
+.eth-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.eth-money, .day-left {
+  display: flex;
+  align-items: center;
+}
+
+.eth-money img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.eth-money .eth-icon {
+  font-size: 1rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.day-left img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.day-left p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+}
+
+.profile-creator {
+  display: flex;
+  align-items: center;
+}
+
+.profile-creator img {
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-creator p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.profile-creator p span:hover {
+  color: hsl(178, 100%, 50%);
+}
